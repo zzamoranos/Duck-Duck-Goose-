@@ -1,8 +1,5 @@
 /*
-Duck, Duck, Goose!
-
-Kim Mai and Zeaj Zamoranos
-21005845 and 21034608
+Welcome to the game!
 
 INSTRUCTIONS
 The objective of the game is to 'bonk' (or hit) as many ducks as you can with a piece of bread (the cursour) without hitting 
@@ -16,51 +13,10 @@ ii. Pause the game
 In order to pause an ongoing game, the player must hit the 'SPACEBAR'. TO unpause the game, the player must hit ANY KEY on
 their keyboard, not including the spacebar.
 
-
-2. Mouse pressed (HIT TESTS)
-i. 'Bonk' the ducks using the loaf of bread to earn points (hit test)
-In order to 'hit' the ducks and earn points, the player must click directly onto the ducks or on the area (the blue circle) 
-that the ducks spawn and respawn on.
-
-ii. 'Bonk' the goose with the loaf of bread, end the game (hit test)
-If the players 'hits' a goose with the bread, the player loses and ends the game. Note that hitting
-any other area on the screen does not affect the player's score and also does not end the game.
-
-iii. Replay the game
-When the screen changes to the game over state, the player is able to click on the 'PLAY AGAIN' button and restart the game.
-
-
-CODING QUALITY AND VISUAL DESIGN
-Our code is quite complex as it involves multiple hit test functions that take into account when the animals are hit, and
-differentiate which type of animal is being hit. For instance, we wrote our code such that if the player hits a duck, it
-recognizes that it is a duck and not a geese, provides the player with one point and continues on with the game. If the player 
-hits a goose, it is able to recognize that. In result, the player loses, and the game ends. It is also to able to recognize that
-if the spawning areas are empty with no animals inside, along with any other area on the canvas, then no point in granted and
-the game still continues. 
-
-Furthermore, we also had to make custom functions and loops to draw the animals in random positions on 
-the canvas. We had to initialize the animals to have them show up, and created a function to "empty out" the area they spawn in.
-We also needed to make sure that it recognized when a "hole" was empty, and when there was an animal inside of that area. If the
-area was empty, then an animal would spawn inside of it. If there was already an animal present, then there would only be one
-present and no other animals would spawn in that area.
-
-
-As for the visual design, Zeaj made digital drawings of the ducks and geese in the game, along with the piece of bread that is
-used to 'bonk' the animals. We also incorporated drawings of lilypads on the body of water that the animals are swimming in
-across the canvas for more visual dynamic, and used a loop to randomly draw them across the canvas.
-
-
-VIDEO
-https://www.loom.com/share/05f32a89377446fb9040d8896988ad78
-
-
 CREDITS
 Credits to https://www.youtube.com/watch?v=Fw3RB7xnb80 for the 'QUACK' sound effect.
 Credits to https://www.youtube.com/watch?v=W931nTCAP for the 'BONK' sound effect.
 
-RELEASE
-I, Kim Mai and Zeaj Zamoranos, grant permission to CS 105 course staff to use
-my Final Project program and video for the purpose of promoting CS 105.
 */
 
 
